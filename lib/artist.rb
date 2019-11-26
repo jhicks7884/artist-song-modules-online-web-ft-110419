@@ -7,9 +7,9 @@ class Artist
   @@artists = []
 
   extend Memorable::ClassMethods
-extend Findable::ClassMethods
-include Paramable::InstanceMethods
-include Memorable::InstanceMethods
+ extend Findable::ClassMethods
+ include Paramable::InstanceMethods
+ include Memorable::InstanceMethods
 
   def initialize
     super
