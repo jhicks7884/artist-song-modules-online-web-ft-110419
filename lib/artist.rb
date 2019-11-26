@@ -12,7 +12,7 @@ include Paramable::InstanceMethods
 include Memorable::InstanceMethods
 
   def initialize
-  super
+    super
     @songs = []
   end
 
